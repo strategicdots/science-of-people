@@ -7,6 +7,7 @@
 
 body {
     font-family: lora, sans-serif;
+    background-color: #fff;
 }
 
 p {
@@ -72,19 +73,43 @@ button,
 ================*/
 
 .jumbotron {
-    background: url(../img/main-bg.png) #222 0 30%;
     color: #fff;
     padding: 80px 0 0;
-    margin-bottom: 0;
+    margin: -30px 0 0 0;
+}
+
+.item {
+    padding: 30px 0 0;
+    min-height: 485px;
+    position: relative;
+}
+
+.main-bg1 {
+    background: url(../img/main-bg.png) #222 no-repeat 0% 30%;
+}
+
+.main-bg2 {
+    background: url(../img/main-bg2.png) #222 no-repeat 100% 90%;
+}
+
+.main-bg3 {
+    background: url(../img/main-bg3.png) #222 no-repeat 10% 60%;
+}
+
+.jumbo-form {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 .jumbotron h1 {
-    font-size: 48px;
+    font-size: 42px;
     line-height: 1.5;
+    text-transform: capitalize;
 }
 
 .jumbotron .lead {
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 400;
 }
 
@@ -128,9 +153,7 @@ button,
 /*  MAIN PAGE
 ===================*/
 
-section {
-    background-color: #EFF2F4;
-}
+section {}
 /* MAIN CONTENT */
 
 .new-post {
