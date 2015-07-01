@@ -51,11 +51,12 @@ button,
 
 .navbar-default {
     background-color: #fff;
+    border-bottom: 3px solid #000;
 }
 
 .navbar ul {
     position: relative;
-    top: 20px;
+    top: 40px;
 }
 
 .navbar .container li a,
@@ -69,37 +70,73 @@ button,
 .footer-nav .container li a:hover {
     background-color: #FFF300;
 }
+/*BRAND SECTION */
+
+.brnd-sec {
+    width: 400px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.brnd-sec .col-sm-8 {
+    position: relative;
+}
+
+.brnd-sec ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50px;
+}
+
+.brnd-sec li {
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: 5px;
+}
+
+.brnd-sec p {
+    margin: 0;
+    font-size: 32px;
+    font-family: oswald, sans-serif;
+    letter-spacing: 9px;
+}
 /*  JUMBOTRON
 ================*/
 
 .jumbotron {
-    color: #fff;
+    color: #000;
     padding: 80px 0 0;
-    margin: -30px 0 0 0;
+    margin: 30px 0 0 0;
+    /*    margin: 30px 0 0 0;*/
 }
 
 .item {
     padding: 30px 0 0;
-    min-height: 485px;
+    min-height: 500px;
     position: relative;
 }
 
 .main-bg1 {
-    background: url(../img/main-bg.png) #222 no-repeat 0% 30%;
+    background: url(../img/main-bg.jpg) #222 no-repeat 25% 65%;
 }
 
 .main-bg2 {
-    background: url(../img/main-bg2.png) #222 no-repeat 100% 90%;
-}
-
-.main-bg3 {
-    background: url(../img/main-bg3.png) #222 no-repeat 10% 60%;
+    background: url(../img/main-bg2.jpg) #222 no-repeat;
+    background-size: cover;
 }
 
 .jumbo-form {
     position: absolute;
     bottom: 0;
     width: 100%;
+    color: #fff;
+}
+
+.jumbo-form p {
+    color: #fff;
 }
 
 .jumbotron h1 {
@@ -152,8 +189,6 @@ button,
 }
 /*  MAIN PAGE
 ===================*/
-
-section {}
 /* MAIN CONTENT */
 
 .new-post {
@@ -276,6 +311,8 @@ footer .form-lead {
 }
 
 @media (max-width: 767px) {
+    /* navbar */
+    
     .navbar ul {
         top: 0px;
     }
@@ -295,6 +332,8 @@ footer .form-lead {
         padding: 5px 0 5px 5px;
         margin: 0 0 10px 0;
     }
+    /* jumbotron */
+    
     .jumbotron {
         padding: 50px 0 0;
         text-align: center;
