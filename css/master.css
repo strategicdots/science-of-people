@@ -120,11 +120,11 @@ button,
 }
 
 .main-bg1 {
-    background: url(../img/main-bg.jpg) #222 no-repeat 25% 65%;
+    background: url(../img/main-bg.jpg) #fff no-repeat 25% 65%;
 }
 
 .main-bg2 {
-    background: url(../img/main-bg2.jpg) #222 no-repeat;
+    background: url(../img/main-bg2.jpg) #fff no-repeat;
     background-size: cover;
 }
 
